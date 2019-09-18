@@ -31,4 +31,8 @@ class Dog
  
  
   
-end 
+end
+
+
+lassie = Dog.new("lassie")
+snoopy = Dog.new("snoopy")
