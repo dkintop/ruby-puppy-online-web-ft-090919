@@ -24,7 +24,7 @@ class Dog
   def self.print_all 
     
     @@all.each do 
-      puts @name
+      puts self.name
     end
     
   end
@@ -36,4 +36,4 @@ end
 
 lassie = Dog.new("lassie")
 snoopy = Dog.new("snoopy")
-@@all
+
