@@ -36,4 +36,4 @@ end
 
 lassie = Dog.new("lassie")
 snoopy = Dog.new("snoopy")
-Dog.@@all
+@@all
